@@ -1,0 +1,60 @@
+.navbar-toggler {
+  background-color: rgb(87, 33, 52);
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.container-fluid {
+  background-image: linear-gradient(#ead3c1, #d8d3cf);
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("bg-pic-transformed.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item {
+  background-color: rgb(87, 33, 52);
+  padding: 4px 12px; /* Adjust padding as needed */
+  border-radius: 99px; /* Makes it a pill-shaped button */
+  margin: 10px;
+  text-align: center;
+}
+.nav-item:hover {
+  background-color: rgb(68, 26, 40);
+}
+
+.btn-outline-success {
+  background-color: rgb(87, 33, 52); /* Change this to the color you want */
+  color: #ffffff; /* Change this to the text color you want */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 99px; /* Adjust border-radius as needed */
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(
+    68,
+    26,
+    40
+  ); /* Change this to the background color on hover */
+}
+
+.bg-body-tertiary {
+  background-image: linear-gradient(#d8d3cf, #ead3c1) !important;
+}
+
+.flights-bg-container {
+  background-image: url("flights-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
